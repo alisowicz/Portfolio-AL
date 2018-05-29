@@ -7,7 +7,7 @@
 
 }
 body {
-    background-color: $bodyColor;
+    background-color: #F3F3F3;
     color: $bodyFontColor;
     font-family: "Cardo", "Times New Roman", Times, serif;
     margin: 0;
@@ -308,7 +308,7 @@ a.active{
     transition: all 0.5s ease-in-out;
     border: 2px solid #e7f0e7;
     overflow: hidden;
-    transform: translate(-8%, 500%);
+    transform: translate(-8%, 520%);
   }
 .check-button:hover{
   border: 2px solid $bodyColor;
