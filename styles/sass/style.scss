@@ -127,6 +127,7 @@ a.active{
   z-index: 1;
   box-shadow: 0 16px 11px -12px $mint;
   padding: 10px 10px;
+  z-index: 2;
 }
 
 .topbar-scroll {
@@ -174,15 +175,21 @@ a.active{
 
   @media(max-width: 768px){
     // IIsposob to moze byc display:none;
-      flex-direction: column;
-      background-color: #f1f0f0a8;
-      position: absolute;
+
       width: 75%;
       top: 82px;
-      right:20px;
+      right: 0px;
+      display: none;
 
       &.open {
-        right: -120px;
+        background: $mint;
+        display: block;
+        display: flex;
+        top: 777px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
       }
   }
 }
@@ -195,12 +202,12 @@ a.active{
   letter-spacing: 1px;
   line-height: 23px;
   text-align: left;
-  font-style: italic;
   margin-left: 2rem;
+  font-style: italic;
   transition: all 0.1s;
   @media(max-width: 768px){
-      margin-left: 17px;
-      padding-bottom: 5px;
+    padding: 10px 0;
+    text-align: center
   }
   &:hover{
     border-bottom: 2px solid $mint;

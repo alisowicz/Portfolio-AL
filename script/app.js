@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // menu z hamburgera
   document.addEventListener('DOMContentLoaded',function() {
     const hamburgerMenu = document.querySelector('.hamburger-icon');
-    const label = document.querySelector('.borba_topbar_menu-lista');
+    const label = document.querySelector('.topbar_menu-lista');
 
     const Message = function(){
       label.classList.toggle('open');
