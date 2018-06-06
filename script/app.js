@@ -1,3 +1,5 @@
+
+
 // hamburger
 document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger-icon')
@@ -20,28 +22,30 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 
 
-  // zmiana rozmiaru menu przy scrollu
+  // // zmiana rozmiaru menu przy scrollu
   // const menu = function() {
-  //    if(window.pageYOffset > 550) {
-  //      document.querySelector('.borba_topbar').classList.add('borba_topbar-scroll');
+  //    if(window.pageYOffset > 650) {
+  //      document.querySelector('.topbar').classList.add('topbar-scroll');
   //    } else {
-  //      document.querySelector('.borba_topbar').classList.remove('borba_topbar-scroll')
+  //      document.querySelector('.topbar').classList.remove('topbar-scroll')
   //     }
   //  }
   //  document.addEventListener('scroll', () => menu())
 
 
-   //sticky navbar
-   $(function () {
+   // sticky navbar
+   window.onscroll = function() {myFunction()};
 
-    $(document).scroll(function () {
-        if ($(window).scrollTop() >= $('borba_topbar').offset().top) {
-            $('nav').addClass('sticky');
-        } else {
-            $('nav').removeClass('sticky');
-        }
-    });
-  }
+    var topbar = document.querySelector('.topbar');
+    var sticky = topbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        topbar.classList.add('sticky')
+      } else {
+        topbar.classList.remove('sticky');
+      }
+    }
 
      //gładkie przewijanie
 

@@ -106,8 +106,7 @@ h6, .h6 {
   transition: all 0.3s;
   z-index: 1;
   box-shadow: 0 16px 11px -12px #b2dfdb8f;
-  padding: 10px 10px;
-  background-color: #a51641a8; }
+  padding: 10px 10px; }
 
 .topbar-scroll {
   width: 100%;
@@ -149,8 +148,7 @@ h6, .h6 {
       top: 82px;
       right: 20px; }
       .topbar_menu-lista.open {
-        right: -120px;
-        display: none; } }
+        right: -120px; } }
 
 .topbar_menu-lista-element {
   font-family: Times New Roman;
@@ -173,8 +171,8 @@ h6, .h6 {
 
 .sticky {
   width: 100%;
+  position: fixed;
   top: 0;
-  left: 0;
   background: #fff; }
 
 #about {

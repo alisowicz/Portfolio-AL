@@ -127,7 +127,6 @@ a.active{
   z-index: 1;
   box-shadow: 0 16px 11px -12px $mint;
   padding: 10px 10px;
-  background-color: #a51641a8;
 }
 
 .topbar-scroll {
@@ -184,7 +183,6 @@ a.active{
 
       &.open {
         right: -120px;
-        display: none;
       }
   }
 }
@@ -212,8 +210,8 @@ a.active{
 
 .sticky {
   width: 100%;
+  position: fixed;
   top: 0;
-  left: 0;
   background: #fff;
   }
 // end of topbar
