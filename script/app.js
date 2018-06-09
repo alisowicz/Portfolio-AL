@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // menu z hamburgera
   document.addEventListener('DOMContentLoaded',function() {
     const hamburgerMenu = document.querySelector('.hamburger-icon');
-    const label = document.querySelector('.topbar_menu-lista');
+    const list = document.querySelector('.topbar_menu-lista');
 
     const Message = function(){
-      label.classList.toggle('open');
+      list.classList.toggle('open');
       // tu przyjmuje klase open okreslona w css
     }
     hamburgerMenu.addEventListener('click', Message)
@@ -46,6 +46,9 @@ document.addEventListener('DOMContentLoaded', function() {
         topbar.classList.remove('sticky');
       }
     }
+
+
+
 
      //gładkie przewijanie
 
