@@ -225,7 +225,7 @@ h6, .h6 {
 .divider {
   position: absolute;
   left: 50%;
-  top: 461px;
+  top: 452px;
   height: 150px;
   z-index: -1;
   -webkit-clip-path: polygon(50% 50%, 0 0, 100% 0);
@@ -234,15 +234,15 @@ h6, .h6 {
   transform: translateX(-50%);
   width: 100vw;
   z-index: 4; }
-  @media (max-width: 514px) {
+  @media (max-width: 507px) {
     .divider {
       top: 484px; } }
   @media (max-width: 486px) {
     .divider {
-      top: 525px; } }
+      top: 497px; } }
   @media (max-width: 460px) {
     .divider {
-      top: 548px; } }
+      top: 497px; } }
   @media (max-width: 401px) {
     .divider {
       height: 0; } }
@@ -351,7 +351,7 @@ h6, .h6 {
   flex-direction: row;
   justify-content: flex-end;
   background-image: url("../images/project-4.jpg");
-  background-position: 50% 60% !important;
+  background-position: 50% 30% !important;
   margin-right: 30px; }
 
 .portfolio_row-split-6 {
@@ -360,6 +360,34 @@ h6, .h6 {
   justify-content: flex-end;
   background-image: url("../images/project-5.jpg"); }
 
+  .portfolio_row-split-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/carpartner.jpg"); }
+
+  .portfolio_row-split-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/multiveg.jpg"); }
+
+    .portfolio_row-split-9 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      background-image: url("../images/druk3d.jpg"); }
+
+      .portfolio_row-split-10 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-image: url("../images/studiokg.jpg"); }
+      .portfolio_row-split-11 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      background-image: url("../images/kancelaria.jpg"); }
 .container_grid {
   display: grid;
   grid-template-columns: repeat(5, auto);

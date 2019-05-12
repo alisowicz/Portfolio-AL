@@ -278,7 +278,7 @@ a.active{
 .divider{
     position: absolute;
     left: 50%;
-    top: 461px;
+    top: 452px;
     height: 150px;
     z-index: -1;
     -webkit-clip-path: polygon(50% 50%, 0 0, 100% 0);
@@ -287,14 +287,14 @@ a.active{
     transform: translateX(-50%);
     width: 100vw;
     z-index: 4;
-    @media(max-width: 514px){
+    @media(max-width: 507px){
         top: 484px;
     }
     @media (max-width: 486px){
-        top: 525px;
+        top: 497px;
     }
     @media (max-width: 460px){
-        top: 548px;
+        top: 497px;
     }
     @media (max-width: 401px){
         height: 0;
@@ -424,7 +424,7 @@ a.active{
     flex-direction: row;
     justify-content: flex-end;
     background-image: url("../images/project-4.jpg");
-    background-position: 50% 60% !important;
+    background-position: 50% 30% !important;
     margin-right: 30px;
 
   }
