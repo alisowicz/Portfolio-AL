@@ -388,6 +388,7 @@ a.active{
       margin-right: 30px;
       @media (max-width: 768px) {
             margin: 0px auto 50px;
+		  	flex: none!important;
       }
         &:hover{
 
@@ -433,6 +434,60 @@ a.active{
     flex-direction: row;
     justify-content: flex-end;
     background-image: url("../images/project-5.jpg");
+  }
+.portfolio_row-split-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/carpartner.jpg");
+  }
+.portfolio_row-split-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/multiveg.jpg");
+  }
+.portfolio_row-split-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/druk3d.jpg");
+  }
+.portfolio_row-split-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/studiokg.jpg");
+  }
+.portfolio_row-split-11{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/kancelaria.jpg");
+  }
+.portfolio_row-split-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/gniatk.jpg");
+  }
+.portfolio_row-split-13{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/frida.jpg");
+  }
+.portfolio_row-split-14{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/palimeb.jpg");
+  }
+.portfolio_row-split-15{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: url("../images/mona.jpg");
   }
 
 .container_grid{
